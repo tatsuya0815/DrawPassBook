@@ -1,0 +1,45 @@
+/* 全体設定 */
+	div {
+		margin: 10px;
+	}
+/* 出力イメージビュー */	
+	/* 表示テキストのプレビュー */
+	table td{
+		border-left-style:none;
+		border-right-style:none;
+		border-top-style:none;
+	}
+	table td[class*="left"]{
+		background-color: #D0D0D0;
+		width:1px;
+		border-style:none;
+	}
+	table td[class*="right"]{
+		background-color: #D0D0D0;
+		width:1px;
+		border-style:none;
+	}
+	.top{
+		background-color: #D0D0D0;
+		height:1px;
+		border-style:none;
+	}
+	.bottom{
+		background-color: #D0D0D0;
+		height:1px;
+		border-style:none;
+	}
+	.center{
+		text-align:left;
+		vertical-align:bottom;
+	}
+	.main{
+		height:50px;
+	}
+	.character{
+		font-size: 50px;
+		margin: 0px;
+		height:50px;
+		display: flex;
+		align-items: center;
+	}
